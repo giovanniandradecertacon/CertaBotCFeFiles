@@ -1,0 +1,5 @@
+package br.com.certacon.certabotcfefiles.utils;
+
+public enum ProcessStatus {
+    CREATED, UPDATED, LOGGED, ERROR, CHANGED, DOWNLOADED, PROXY_ERROR, OK, MOVED, RUNTIME_ERROR, MALFORMULED_ERROR, INTERRUPTED_ERROR, IO_ERROR, READY
+}

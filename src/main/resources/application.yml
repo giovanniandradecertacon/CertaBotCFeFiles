@@ -1,0 +1,26 @@
+server:
+  port: 8095
+  servlet:
+    context-path: /CertabotCFe
+
+spring:
+  application:
+    name: CertaBotCFe
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.SQLServerDialect
+  jmx:
+    enabled: false
+
+  datasource:
+    url: jdbc:sqlserver://192.168.0.27;databaseName=CertaBotCFeDev;encrypt=false;integratedSecurity=false;
+    username: giovanni.andrade
+    password: gigi1704
+
+config:
+  ip: http://192.168.0.26
+
